@@ -1,0 +1,30 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Ignore Files #
+target
+bin
+build
+.project
+.settings
+.classpath
+.gradle
+.idea
+.svn
+
+*.iml
+*.ipr
+*.iws
+logs
+
+*.DS_Store
+
+# 过滤build业务包 #
+!**/src/main/java/**/build
+!**/src/test/java/**/build
+
+banner.txt
